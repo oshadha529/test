@@ -1,0 +1,78 @@
+section{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    animation-name: x;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    
+}
+
+@keyframes x{
+    from{background-color: green; color:white;}
+    to{background-color: red;}
+}
+
+#a1{
+    height: 200px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    animation-name: y;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes y{
+    0%{background-color: green; color: white;}
+    25%{background-color: blue;}
+    50%{background-color: blueviolet;}
+    75%{background-color: brown;}
+    100%{background-color: black;}
+}
+
+#a2{
+    height: 200px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    animation-name: l;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+   
+}
+
+@keyframes l{
+    0%{background-color: green; color: white;}
+    25%{background-color: blue;}
+    50%{background-color: blueviolet;}
+    75%{background-color: brown;}
+    100%{background-color: black;}
+}
+
+#a3{
+    height: 200px;
+    background-color: green;
+    color: white;
+    font-size: 40px;
+    animation-name: a;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: both;
+}
+
+@keyframes a{
+    from{background-color: green; color:white;}
+    to{background-color:darkturquoise;}
+}
